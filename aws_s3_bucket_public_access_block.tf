@@ -1,5 +1,5 @@
 resource "aws_s3_bucket_public_access_block" "onebucket" {
-  bucket = aws_s3_bucket.main_bucket.id
+  bucket = aws_s3_bucket.onebucket.id
   block_public_acls   = true
   block_public_policy = true
   ignore_public_acls = true
