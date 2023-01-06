@@ -1,4 +1,3 @@
-AWS Config
 variable "aws_access_key" {
 default = "AKIAXZRFGMTHQFLGIDBB"
 }
