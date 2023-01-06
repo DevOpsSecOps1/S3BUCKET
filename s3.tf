@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "onebucket" {
-   bucket = "testingbuck2-s3-with-terraform"
+   bucket = "myvenkat-s3-devsectf125"
    acl = "private"
    
    versioning {
