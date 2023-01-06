@@ -9,4 +9,10 @@ resource "aws_s3_bucket" "onebucket" {
      Name = "Bucket1"
      Environment = "Test"
    }
+   resource "aws_s3_bucket_public_access_block" "s3Public" {
+   bucket = "${aws_s3_bucket.bucket.id}"
+   block_public_acls = true
+   block_public_policy = true
+   restrict_public_buckets = true
+  }
 }
